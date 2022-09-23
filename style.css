@@ -1,0 +1,87 @@
+body{
+    background-color: cornsilk;
+    
+
+    
+}
+
+.resizing {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/breakfastbackground.jpg);
+    background-size: 100vw 100vh;
+    
+
+}
+
+.logo{
+    text-align: center;
+
+    font-size: 300%;
+    width: 100vw;
+    height: 10vh;
+
+    background-color: cornsilk;
+}
+
+.logo>a{
+    text-decoration: none;
+}
+
+
+.dropdown{
+    position: absolute;
+    text-align: right;
+    width: 100px;
+    margin-left: 90%;
+}
+
+.dropbutton{
+    background-color: beige;
+    color: coral;
+    font-size: 35px;
+}
+
+.dropitems>a{
+    padding-top: 10px;
+    text-decoration: none;
+    display: none;
+    background-color: beige;
+    width: 85pt;
+    height: 50px;
+    font-size: 25px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.dropdown:hover> .dropitems>a{
+    display: block;
+    
+}
+
+.dropitems>a:hover{
+    background-color: burlywood;
+}
+
+.dropbutton:hover {
+    background-color: cornsilk;
+}
+
+.hidden{
+   list-style:none;
+}
+
+
+.menu{
+    
+    opacity: 96%;
+   margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    width: 17in;
+    height: 9in;
+    position: fixed;
+
+
+    
+}
